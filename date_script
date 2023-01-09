@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "current date in day, month and year order"
+
+date + "%d-%m-%y"
+
+sleep 1
+
+echo "current time"
+
+date "+%T"
